@@ -13,8 +13,7 @@ To make this tool accessible to non-technical users, I created a flask app and d
 ### Live Link : https://data-job-salary-predictor.herokuapp.com.
 
 ## Flow Chart :
-
-
+![137633247-edd4a03d-a5d6-4080-8c98-352dabf1c4c2](https://user-images.githubusercontent.com/91024630/142774232-1145ec7b-dad6-4975-92e1-5f6bb307150e.png
 
 ## Dependencies:
 For this project, the following tools were used:
@@ -26,8 +25,13 @@ For this project, the following tools were used:
 
 ## IO Screenshots:📷 <br>
 
+![Screenshot (22)](https://user-images.githubusercontent.com/91024630/142774239-c84d3a7e-595d-4201-b166-27f7777e0f23.png)
+![Screenshot (23)](https://user-images.githubusercontent.com/91024630/142774244-5c74ca1f-ec00-4e2c-912c-15ded688b8c0.png)
+)
+![Screenshot (24)](https://user-images.githubusercontent.com/91024630/142774247-5d40b2d9-0bdf-42ea-a14f-541acbe4bbad.png)
 
-## Data Sources
+
+## Dataset
 - Indeed.com, 10,000+ jobs were scrapped from Indeed.com
 - Cost of Living Indexes by City
 
