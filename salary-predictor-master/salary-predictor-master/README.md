@@ -27,7 +27,12 @@ For this project, the following tools were used:
 
 ## IO Screenshots:📷 <br>
 
+### Enter Job Description :-
+
 ![Screenshot (22)](https://user-images.githubusercontent.com/91024630/142774239-c84d3a7e-595d-4201-b166-27f7777e0f23.png)
+
+### Salary prediction :-
+
 ![Screenshot (23)](https://user-images.githubusercontent.com/91024630/142774244-5c74ca1f-ec00-4e2c-912c-15ded688b8c0.png)
 )
 ![Screenshot (24)](https://user-images.githubusercontent.com/91024630/142774247-5d40b2d9-0bdf-42ea-a14f-541acbe4bbad.png)
