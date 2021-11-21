@@ -13,7 +13,9 @@ To make this tool accessible to non-technical users, I created a flask app and d
 ### Live Link : https://data-job-salary-predictor.herokuapp.com.
 
 ## Flow Chart :
-![137633247-edd4a03d-a5d6-4080-8c98-352dabf1c4c2](https://user-images.githubusercontent.com/91024630/142774232-1145ec7b-dad6-4975-92e1-5f6bb307150e.png
+
+![137633247-edd4a03d-a5d6-4080-8c98-352dabf1c4c2](https://user-images.githubusercontent.com/91024630/142774306-2daed2e6-a8fb-41b2-b491-e1d9eae51fa7.png)
+
 
 ## Dependencies:
 For this project, the following tools were used:
