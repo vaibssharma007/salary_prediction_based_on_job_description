@@ -1,21 +1,35 @@
 
-# Job Salary Prediction for Analytics Professionals
+# Job Salary Prediction Based on Job description
 ### Deep learning model using NLP to predict job salary based on Indeed job postings
-
-Bonnie Ma
 
 ## Overview
 One of the most important things in Job Search is knowing where you are right now and where you want to go next. The mindset of a job seeker or a career switcher is very much like a product manager, trying to find the best product and market fit. Smart product managers know what their customers (HR/Hiring Managers) want. So they carefully find out their needs which are expressed through top qualifications, "what you must have", in the job descriptions. After identifying what is commonly needed in the market they try to customize their products aka resumes, cover letters, online profiles, portfolios to demonstrate these characteristics and traits as much as possible. This project is to help you to be that smart product manager and tell you what qualities and top skills the market desires and a step further, help you navigate the salary negotiation and make the best choice!
 
 How? This project will scrap 1000+ jobs in data/analytics fields in major U.S. cities and information such as job title, company, company review, city, job description, salary range will be used to generate insights about certain job category. And then combining with other factors such as employment/unemployment rate, Cost of living index, median salary by occupation, a predictive model will be built to predict the salary, and give job seeker more information on location choices.
 
+
+## Model deployed as Web-Application AP at:📳 
+To make this tool accessible to non-technical users, I created a flask app and deployed to heroku . Users can just copy a full job description in data related fields and paste here to get the salary range.
+### Live Link : https://data-job-salary-predictor.herokuapp.com.
+
+## Flow Chart :
+
+
+
+## Dependencies:
+For this project, the following tools were used:
+
+1. Tensorflow 2 for building and training the model
+2.Python 3 Pandas NumPy Seaborn Scikit-learn Matplotlib Jupyter
+3. Flask for implementing the server side
+4. HTML5, CSS3, JavaScript (with Web Speech API and particles.js) on the front-end.
+
+## IO Screenshots:📷 <br>
+
+
 ## Data Sources
 - Indeed.com, 10,000+ jobs were scrapped from Indeed.com
 - Cost of Living Indexes by City
-
-## Question answered
-1. Most common keywords indicated in the job description (Data Analyst, Data Scientist, Data Engineers, Business Intelligence, Machine Learning, Business Analyst)
-2. Salary prediction using JUST job description text
 
 ## Data Science Process (CRISP-DM)
 ### Business Understanding
@@ -44,13 +58,10 @@ Initial cleaning on job description text: remove stopwords and special character
 - Model 6: Mixed Input Network Model with City, Rate Type, and Cost of Living Indexes
 - Model 7: Just use Job Title, City, Cost of Living Indexes + Classification
 
-### Evaluation
+### Accuracy
 Train/Test Accuracy is the primarily metrics to evaluate the classification models. We also take processing time, reusability of the model into consideration. Our best performing model is surprising Model 1 with the highest accuracy (0.71) and shortest processing time.
 
-### Deployment
-To make this tool accessible to non-technical users, I created a flask app and deployed to heroku here: https://data-job-salary-predictor.herokuapp.com. Users can just copy a full job description in data related fields and paste here to get the salary range.
-
-### Limitation and Future Consideration
+### Scope of Improvement
 Job salary range can change from time to time depends on economic situation and job market. Therefore the model needs to be constantly trained with refreshed data to produce up to date results. Most of the positions were pulled in late May 2020 when COVID19 impacted North America so the salary range during this period of time may not reflect the "normal".
 
 We scrapped the full job description from Indeed as there is no standard way to parse out company detail, skills requirements and benefits so there are noises within the job description text to extract features.
