@@ -12,19 +12,6 @@ How? This project will scrap 1000+ jobs in data/analytics fields in major U.S. c
 To make this tool accessible to non-technical users, I created a flask app and deployed to heroku . Users can just copy a full job description in data related fields and paste here to get the salary range.
 ### Live Link : https://data-job-salary-predictor.herokuapp.com.
 
-## Flow Chart :
-
-![137633247-edd4a03d-a5d6-4080-8c98-352dabf1c4c2](https://user-images.githubusercontent.com/91024630/142774306-2daed2e6-a8fb-41b2-b491-e1d9eae51fa7.png)
-
-
-## Dependencies:
-For this project, the following tools were used:
-
-1. Tensorflow 2 for building and training the model
-2.Python 3 Pandas NumPy Seaborn Scikit-learn Matplotlib Jupyter
-3. Flask for implementing the server side
-4. HTML5, CSS3, JavaScript (with Web Speech API and particles.js) on the front-end.
-
 ## IO Screenshots:📷 <br>
 
 ### Enter Job Description :-
@@ -37,6 +24,17 @@ For this project, the following tools were used:
 )
 ![Screenshot (24)](https://user-images.githubusercontent.com/91024630/142774247-5d40b2d9-0bdf-42ea-a14f-541acbe4bbad.png)
 
+## Flow Chart :
+
+![137633247-edd4a03d-a5d6-4080-8c98-352dabf1c4c2](https://user-images.githubusercontent.com/91024630/142774306-2daed2e6-a8fb-41b2-b491-e1d9eae51fa7.png)
+
+## Dependencies:
+For this project, the following tools were used:
+
+1. Tensorflow 2 for building and training the model
+2.Python 3 Pandas NumPy Seaborn Scikit-learn Matplotlib Jupyter
+3. Flask for implementing the server side
+4. HTML5, CSS3, JavaScript (with Web Speech API and particles.js) on the front-end.
 
 ## Dataset
 - Indeed.com, 10,000+ jobs were scrapped from Indeed.com
