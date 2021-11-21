@@ -1,0 +1,26 @@
+# ----------------------
+# Flask
+# ----------------------
+flask
+pandas
+numpy
+seaborn
+matplotlib
+pickle-mixin
+sklearn
+wordcloud
+joblib
+Pillow
+
+
+# ----------------------
+# Testing
+# ----------------------
+mock
+
+
+# ----------------------
+# Production Server
+# ----------------------
+gevent
+gunicorn
