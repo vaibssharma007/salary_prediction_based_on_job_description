@@ -42,7 +42,7 @@ For this project, the following tools were used:
 - Indeed.com, 10,000+ jobs were scrapped from Indeed.com
 - Cost of Living Indexes by City
 
-## Data Science Process (CRISP-DM)
+## Model
 ### Business Understanding
 This project aims to predict salary for specific fields - data related positions. Therefore, the training and test data is better to be limited within data/analytics related job positions to get more valuable features. When scrapping the data, we make sure one of these keywords exist in the whole job description: 'data analytics','data science','analysis'.
 
